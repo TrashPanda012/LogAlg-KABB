@@ -9,10 +9,10 @@ int main(int argc, char const *argv[])
     numbers [3] = 1000;
     numbers [4] = 2024;
     
-    printf("Elemento #1: %d", numbers[0]);
-    printf("Elemento #2: %d", numbers[1]);
-    printf("Elemento #3: %d", numbers[2]);
-    printf("Elemento #4: %d", numbers[3]);
-    printf("Elemento #5: %d", numbers[4]);
+    printf("\n Elemento #1: %d", numbers[0]);
+    printf("\n Elemento #2: %d", numbers[1]);
+    printf("\n Elemento #3: %d", numbers[2]);
+    printf("\n Elemento #4: %d", numbers[3]);
+    printf("\n Elemento #5: %d", numbers[4]);
     return 0;
 }
