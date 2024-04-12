@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     numbers [2] = 2.680;
     numbers [3] = 3.5;
     numbers [4] = 1512.9985463255;
-    numbers [5] = 3,14151617;
+    numbers [5] = 3.14151617;
     
     printf("\n Elemento #1: %.2f", numbers [0]);
     printf("\n Elemento #2: %.2f", numbers [1]);
