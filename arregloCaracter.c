@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-    char vocals[6];
+    char vocals[5];
 
     vocals[0] = 'a';
     vocals[1] = 'e';
