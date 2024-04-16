@@ -16,6 +16,6 @@ int main(int argc, char const *argv[])
     scanf("%d", &num1);
     printf("\n Dime el segundo valor: ");
     scanf("%d", &num2);
-    printf("\n El resultado de la suma de %d + %d es igual a %d \n", num1, num2, suma(num1, num2));
+    printf("\n El resultado de la suma de %d + %d es igual a %d ", num1, num2, suma(num1, num2));
     return 0;
 }
