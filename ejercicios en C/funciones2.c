@@ -32,6 +32,6 @@
  }
 
  void valFinalSc(int score){
-    if(score >= 70) printf("\n Aprobado...");
+    if(score >= 70) printf("\n Aprobado :D");
     else printf("\n Reprobado :(");
  }
