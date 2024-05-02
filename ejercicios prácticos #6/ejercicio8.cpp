@@ -36,7 +36,7 @@ void sumaElementos(int longitud){
         vector3[i] = vector1[i] * vector2[i];
     }
     
-    cout << "\nEl resultado de la suma del primer vector con el segundo vector es igual a: " << endl;
+    cout << "\nEl resultado de la multiplicacion del primer vector con el segundo vector es igual a: " << endl;
     for (int i = 0; i < longitud; i++)
     {
         cout << vector3[i] << endl;
