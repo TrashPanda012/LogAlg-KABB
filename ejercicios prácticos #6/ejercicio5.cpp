@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 {
     pedirNotas();
     promedio = suma / numEstudiantes;
-    cout << "Cantidad de alumnos aprobados: " << aprobados << endl;
+    cout << "\nCantidad de alumnos aprobados: " << aprobados << endl;
     cout << "Cantidad de alumnos reprobados: " << reprobados << endl;
     cout << "Promedio General del grupo: " << promedio << endl;
     return 0;
@@ -26,7 +26,7 @@ void pedirNotas(){
         cin >> notas[i];
         suma += notas[i];
 
-        if (notas[i] >= 60)
+        if (notas[i] >= 70)
         {
             aprobados++;
         } else{
