@@ -14,7 +14,7 @@ int main()
 }
 
 void imprimirNum(int n){
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i <= n; i++) {
         suma += i;
     }
     cout << "La suma de los numeros naturales desde 1 hasta " << n << " es: " << suma << endl;
